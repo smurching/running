@@ -5,6 +5,50 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0E3B96201BC88D120040C11B"
+               BuildableName = "swiftly WatchKit App.app"
+               BlueprintName = "swiftly WatchKit App"
+               ReferencedContainer = "container:swiftly.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0E3B962F1BC88D120040C11B"
+               BuildableName = "swiftly WatchKit Extension.appex"
+               BlueprintName = "swiftly WatchKit Extension"
+               ReferencedContainer = "container:swiftly.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0E3B960E1BC88D120040C11B"
+               BuildableName = "swiftly.app"
+               BlueprintName = "swiftly"
+               ReferencedContainer = "container:swiftly.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -13,6 +57,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0E3B96201BC88D120040C11B"
+            BuildableName = "swiftly WatchKit App.app"
+            BlueprintName = "swiftly WatchKit App"
+            ReferencedContainer = "container:swiftly.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +79,27 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/swiftly WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0E3B96201BC88D120040C11B"
+            BuildableName = "swiftly WatchKit App.app"
+            BlueprintName = "swiftly WatchKit App"
+            ReferencedContainer = "container:swiftly.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0E3B96201BC88D120040C11B"
+            BuildableName = "swiftly WatchKit App.app"
+            BlueprintName = "swiftly WatchKit App"
+            ReferencedContainer = "container:swiftly.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +109,27 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/swiftly WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0E3B96201BC88D120040C11B"
+            BuildableName = "swiftly WatchKit App.app"
+            BlueprintName = "swiftly WatchKit App"
+            ReferencedContainer = "container:swiftly.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0E3B96201BC88D120040C11B"
+            BuildableName = "swiftly WatchKit App.app"
+            BlueprintName = "swiftly WatchKit App"
+            ReferencedContainer = "container:swiftly.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
