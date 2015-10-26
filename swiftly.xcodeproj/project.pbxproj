@@ -21,6 +21,12 @@
 		0E3B963A1BC88D120040C11B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E3B96391BC88D120040C11B /* Assets.xcassets */; };
 		0E717B341BC8B3D80047383E /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E717B331BC8B3D80047383E /* HealthKit.framework */; };
 		0E717B381BC8B4520047383E /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E717B371BC8B4520047383E /* HealthKit.framework */; };
+		0E9384AE1BD9B34F00283A25 /* DataQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9384AD1BD9B34F00283A25 /* DataQuery.swift */; settings = {ASSET_TAGS = (); }; };
+		0EDEDA241BDB4359005E7384 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDEDA231BDB4359005E7384 /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
+		0EDEDA251BDB4359005E7384 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDEDA231BDB4359005E7384 /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
+		0EDEDA381BDB44A3005E7384 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDEDA2F1BDB4469005E7384 /* SwiftyJSON.framework */; };
+		0EDEDA391BDB44A3005E7384 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDEDA331BDB4469005E7384 /* SwiftyJSON.framework */; };
+		0EDEDA3A1BDB44A3005E7384 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDEDA371BDB4469005E7384 /* SwiftyJSON.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,41 @@
 			proxyType = 1;
 			remoteGlobalIDString = 0E3B962F1BC88D120040C11B;
 			remoteInfo = "swiftly WatchKit Extension";
+		};
+		0EDEDA2E1BDB4469005E7384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EDEDA261BDB4469005E7384 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFDB19575BE100351305;
+			remoteInfo = "SwiftyJSON iOS";
+		};
+		0EDEDA301BDB4469005E7384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EDEDA261BDB4469005E7384 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFE619575BE100351305;
+			remoteInfo = "SwiftyJSON iOS Tests";
+		};
+		0EDEDA321BDB4469005E7384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EDEDA261BDB4469005E7384 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C7DFC5B1A9102BD005AA3F7;
+			remoteInfo = "SwiftyJSON OSX";
+		};
+		0EDEDA341BDB4469005E7384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EDEDA261BDB4469005E7384 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C7DFC651A9102BD005AA3F7;
+			remoteInfo = "SwiftyJSON OSX Tests";
+		};
+		0EDEDA361BDB4469005E7384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EDEDA261BDB4469005E7384 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4D7CCE81B9465A700EE7221;
+			remoteInfo = "SwiftyJSON watchOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -86,6 +127,10 @@
 		0E717B351BC8B3D80047383E /* swiftly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = swiftly.entitlements; sourceTree = "<group>"; };
 		0E717B361BC8B4520047383E /* swiftly WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "swiftly WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		0E717B371BC8B4520047383E /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		0E9384AD1BD9B34F00283A25 /* DataQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataQuery.swift; sourceTree = "<group>"; };
+		0EDEDA221BDB4359005E7384 /* swiftly WatchKit App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swiftly WatchKit App-Bridging-Header.h"; sourceTree = "<group>"; };
+		0EDEDA231BDB4359005E7384 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../Downloads/SwiftyJSON-master/Source/SwiftyJSON.swift"; sourceTree = "<group>"; };
+		0EDEDA261BDB4469005E7384 /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = "../../Downloads/SwiftyJSON-master/SwiftyJSON.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +146,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EDEDA381BDB44A3005E7384 /* SwiftyJSON.framework in Frameworks */,
+				0EDEDA391BDB44A3005E7384 /* SwiftyJSON.framework in Frameworks */,
+				0EDEDA3A1BDB44A3005E7384 /* SwiftyJSON.framework in Frameworks */,
 				0E717B381BC8B4520047383E /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37836CCABABC3D184F39B6E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,12 +166,15 @@
 		0E3B96061BC88D120040C11B = {
 			isa = PBXGroup;
 			children = (
+				0EDEDA261BDB4469005E7384 /* SwiftyJSON.xcodeproj */,
+				0EDEDA231BDB4359005E7384 /* SwiftyJSON.swift */,
 				0E717B371BC8B4520047383E /* HealthKit.framework */,
 				0E717B331BC8B3D80047383E /* HealthKit.framework */,
 				0E3B96111BC88D120040C11B /* swiftly */,
 				0E3B96251BC88D120040C11B /* swiftly WatchKit App */,
 				0E3B96341BC88D120040C11B /* swiftly WatchKit Extension */,
 				0E3B96101BC88D120040C11B /* Products */,
+				0EDEDA221BDB4359005E7384 /* swiftly WatchKit App-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,8 +220,21 @@
 				0E3B96371BC88D120040C11B /* ExtensionDelegate.swift */,
 				0E3B96391BC88D120040C11B /* Assets.xcassets */,
 				0E3B963B1BC88D120040C11B /* Info.plist */,
+				0E9384AD1BD9B34F00283A25 /* DataQuery.swift */,
 			);
 			path = "swiftly WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		0EDEDA271BDB4469005E7384 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EDEDA2F1BDB4469005E7384 /* SwiftyJSON.framework */,
+				0EDEDA311BDB4469005E7384 /* SwiftyJSON iOS Tests.xctest */,
+				0EDEDA331BDB4469005E7384 /* SwiftyJSON.framework */,
+				0EDEDA351BDB4469005E7384 /* SwiftyJSON OSX Tests.xctest */,
+				0EDEDA371BDB4469005E7384 /* SwiftyJSON.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +265,7 @@
 			buildPhases = (
 				0E3B961F1BC88D120040C11B /* Resources */,
 				0E3B96411BC88D120040C11B /* Embed App Extensions */,
+				37836CCABABC3D184F39B6E6 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -228,6 +300,7 @@
 		0E3B96071BC88D120040C11B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Nand Kishore";
 				TargetAttributes = {
@@ -265,6 +338,12 @@
 			mainGroup = 0E3B96061BC88D120040C11B;
 			productRefGroup = 0E3B96101BC88D120040C11B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0EDEDA271BDB4469005E7384 /* Products */;
+					ProjectRef = 0EDEDA261BDB4469005E7384 /* SwiftyJSON.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0E3B960E1BC88D120040C11B /* swiftly */,
@@ -273,6 +352,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0EDEDA2F1BDB4469005E7384 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 0EDEDA2E1BDB4469005E7384 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0EDEDA311BDB4469005E7384 /* SwiftyJSON iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON iOS Tests.xctest";
+			remoteRef = 0EDEDA301BDB4469005E7384 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0EDEDA331BDB4469005E7384 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 0EDEDA321BDB4469005E7384 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0EDEDA351BDB4469005E7384 /* SwiftyJSON OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON OSX Tests.xctest";
+			remoteRef = 0EDEDA341BDB4469005E7384 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0EDEDA371BDB4469005E7384 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 0EDEDA361BDB4469005E7384 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0E3B960D1BC88D120040C11B /* Resources */ = {
@@ -309,6 +426,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EDEDA241BDB4359005E7384 /* SwiftyJSON.swift in Sources */,
 				0E3B96151BC88D120040C11B /* ViewController.swift in Sources */,
 				0E3B96131BC88D120040C11B /* AppDelegate.swift in Sources */,
 			);
@@ -320,6 +438,8 @@
 			files = (
 				0E3B96381BC88D120040C11B /* ExtensionDelegate.swift in Sources */,
 				0E3B96361BC88D120040C11B /* InterfaceController.swift in Sources */,
+				0E9384AE1BD9B34F00283A25 /* DataQuery.swift in Sources */,
+				0EDEDA251BDB4359005E7384 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,13 +609,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = swiftly_WatchKit_Extension;
 				INFOPLIST_FILE = "swiftly WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swiftly.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "swiftly WatchKit App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -505,13 +629,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = swiftly_WatchKit_Extension;
 				INFOPLIST_FILE = "swiftly WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swiftly.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "swiftly WatchKit App-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
