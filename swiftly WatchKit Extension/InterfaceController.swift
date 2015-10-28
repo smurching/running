@@ -14,14 +14,20 @@ let healthStore = HKHealthStore()
 
 class InterfaceController: WKInterfaceController, HKWorkoutSessionDelegate {
 
+    @IBOutlet var picker: WKInterfacePicker!
+    
+    var itemList: [String] = ["Avishek Dutta", "Nand Kishore", "Sarthak Sahu", "Sid Murching"]
+    
     @IBOutlet var heartLabel: WKInterfaceLabel!
     @IBOutlet var collectButton: WKInterfaceButton!
 
     var collecting = false;
     var authorized = false;
+    var username = "";
     let healthStore = HKHealthStore()
     var workoutSession:HKWorkoutSession!
     var runId = -1
+    var userId = -1
 
     // DataQueries for the measurements we're taking
     var dataQueries:[DataQuery]!
@@ -34,8 +40,10 @@ class InterfaceController: WKInterfaceController, HKWorkoutSessionDelegate {
 
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
-        
-        // Configure interface objects here.
+        self.userId = context as! Int
+        if self.userId < 0 {
+            print("ERROR: userId not received")
+        }
     }
 
     override func willActivate() {
@@ -120,10 +128,13 @@ class InterfaceController: WKInterfaceController, HKWorkoutSessionDelegate {
 
     // Send Request to Server for a new Run id
     func getRunId(){
+        let id = "{userId: " + String(userId) + "}"
         let session = NSURLSession.sharedSession()
         let url = NSURL(string: "http://ec2-54-193-10-55.us-west-1.compute.amazonaws.com/swiftly/runs")!
         let request = NSMutableURLRequest(URL: url)
         request.HTTPMethod = "POST"
+        request.HTTPBody = id.dataUsingEncoding(NSUTF8StringEncoding)
+
         let task = session.dataTaskWithRequest(request){
             (data, response, error) in
             if((error) != nil){

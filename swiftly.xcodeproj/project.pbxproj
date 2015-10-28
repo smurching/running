@@ -21,12 +21,13 @@
 		0E3B963A1BC88D120040C11B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E3B96391BC88D120040C11B /* Assets.xcassets */; };
 		0E717B341BC8B3D80047383E /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E717B331BC8B3D80047383E /* HealthKit.framework */; };
 		0E717B381BC8B4520047383E /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E717B371BC8B4520047383E /* HealthKit.framework */; };
-		0E9384AE1BD9B34F00283A25 /* DataQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9384AD1BD9B34F00283A25 /* DataQuery.swift */; settings = {ASSET_TAGS = (); }; };
-		0EDEDA241BDB4359005E7384 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDEDA231BDB4359005E7384 /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
-		0EDEDA251BDB4359005E7384 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDEDA231BDB4359005E7384 /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
+		0E9384AE1BD9B34F00283A25 /* DataQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9384AD1BD9B34F00283A25 /* DataQuery.swift */; };
+		0EDEDA241BDB4359005E7384 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDEDA231BDB4359005E7384 /* SwiftyJSON.swift */; };
+		0EDEDA251BDB4359005E7384 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDEDA231BDB4359005E7384 /* SwiftyJSON.swift */; };
 		0EDEDA381BDB44A3005E7384 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDEDA2F1BDB4469005E7384 /* SwiftyJSON.framework */; };
 		0EDEDA391BDB44A3005E7384 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDEDA331BDB4469005E7384 /* SwiftyJSON.framework */; };
 		0EDEDA3A1BDB44A3005E7384 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDEDA371BDB4469005E7384 /* SwiftyJSON.framework */; };
+		2D8610C31BE1730C00ACC2F9 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8610C21BE1730C00ACC2F9 /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +132,7 @@
 		0EDEDA221BDB4359005E7384 /* swiftly WatchKit App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swiftly WatchKit App-Bridging-Header.h"; sourceTree = "<group>"; };
 		0EDEDA231BDB4359005E7384 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../Downloads/SwiftyJSON-master/Source/SwiftyJSON.swift"; sourceTree = "<group>"; };
 		0EDEDA261BDB4469005E7384 /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = "../../Downloads/SwiftyJSON-master/SwiftyJSON.xcodeproj"; sourceTree = "<group>"; };
+		2D8610C21BE1730C00ACC2F9 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 				0E717B361BC8B4520047383E /* swiftly WatchKit Extension.entitlements */,
 				0E3B96351BC88D120040C11B /* InterfaceController.swift */,
 				0E3B96371BC88D120040C11B /* ExtensionDelegate.swift */,
+				2D8610C21BE1730C00ACC2F9 /* LoginController.swift */,
 				0E3B96391BC88D120040C11B /* Assets.xcassets */,
 				0E3B963B1BC88D120040C11B /* Info.plist */,
 				0E9384AD1BD9B34F00283A25 /* DataQuery.swift */,
@@ -440,6 +443,7 @@
 				0E3B96361BC88D120040C11B /* InterfaceController.swift in Sources */,
 				0E9384AE1BD9B34F00283A25 /* DataQuery.swift in Sources */,
 				0EDEDA251BDB4359005E7384 /* SwiftyJSON.swift in Sources */,
+				2D8610C31BE1730C00ACC2F9 /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
